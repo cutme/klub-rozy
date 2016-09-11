@@ -4,6 +4,7 @@ CACHE:
 index.html
 css/jquery.pagepiling.css
 css/style.css
+images/apart.svg
 fonts/HelveticaNeueLTW1GBdCnO.eot
 fonts/HelveticaNeueLTW1GBdCnO.svg
 fonts/HelveticaNeueLTW1GBdCnO.ttf
@@ -23,7 +24,6 @@ fonts/icomoon.svg
 fonts/icomoon.ttf
 fonts/icomoon.woff
 fonts/selection.json
-images/apart.svg
 js/jquery.pagepiling.min.js
 js/script.js
 images/bg/ambasadorki.jpg
@@ -81,4 +81,4 @@ NETWORK:
 SETTINGS:
 prefer-online
 
-# hash: 3eb20ab5c9e680db957ced9bd8b641894b28fcf15f4d3802803d2c6f4f70f99e
+# hash: 35b1a3e892c464c1694b4cb8a4d19b7c391de8ee9c23a3d78dcfae011eeb7165
