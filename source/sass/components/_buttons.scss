@@ -1,0 +1,118 @@
+.c-buttons {
+	li {
+		float: left;
+		margin-bottom: 30px;
+		
+		&:nth-child(even) {
+			float: right;
+		}
+	}
+	
+	&__item {
+		display: block;
+		border-radius: 10px;
+		width: 370px;
+		height: 135px;
+		
+		padding: 10px;
+	}
+	
+	p {
+		margin-bottom: 0;
+		white-space: nowrap;
+	}
+	
+	&__lead {
+		display: none;
+		margin-bottom: 10px;
+		font-size: em(25);
+	}
+	
+	&__title,
+	&__sum {
+		display: block;
+	}
+	
+	&__title {
+		font-size: em(36);
+	}
+	
+	&__sum {
+		font-size: em(60);
+	}
+	
+	small {
+		font-size: 40px;
+	}
+	
+	.c-sidebar & {
+		position: absolute;
+		left: 750px;
+		bottom: 0;
+		width: 600px;		
+
+		li {
+			margin-right: 10px;
+
+			&:nth-child(even) {
+				float: left;
+			}
+			
+			&:last-child {
+				margin: 0;
+			}
+		}
+		
+		&__lead {
+			display: block;
+		}
+		
+		&__item {
+			width: 190px;
+			height: 70px;
+		}
+		
+		&__title {
+			margin-bottom: 5px;
+			font-size: em(18);
+		}
+		
+		&__sum {
+			font-size: em(30);
+		}
+		
+		small {
+			font-size: 20px;
+		}
+		
+		
+	}
+	
+	
+}
+
+
+.bursztyn {
+	.c-buttons__bursztyn {
+		display: none;
+	}
+}
+
+.rubin {
+	.c-buttons__rubin {
+		display: none;
+	}
+}
+
+.szmaragd {
+	.c-buttons__szmaragd {
+		display: none;
+	}
+}
+
+.diament {
+	.c-buttons__diament {
+		display: none;
+	}
+}
+

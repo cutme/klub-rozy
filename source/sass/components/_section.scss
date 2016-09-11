@@ -1,0 +1,70 @@
+.section {
+	@include clear;
+	height: 100%;
+	//min-height: 100%;
+	//background-size: cover;
+	background-position: 60px 0;
+	padding-left: 430px;
+	
+	&.medium {
+		width: 900px;
+	}
+	
+	&--ambasadorki {
+		background-image: url(../images/bg/ambasadorki.jpg);
+	}
+	
+	&--home, &--prolog, &--zasady {
+		background-image: url(../images/bg/home.jpg);
+	}
+	
+	&--nagrody-3-bg {
+		display: none;
+		position: absolute; 
+		left: 0; 
+		top: 0; z-index: 2; 
+		width: 100%; 
+		height: 100%; 
+		background: {
+			image: url(../images/bg/nagrody-3.png);
+			size: cover;
+		}
+	}
+	
+	&--nagrody-3,
+	&--przywileje,
+	&--rozwoj {
+		background: {
+			image: url(../images/bg/roses.jpg);
+			position: fixed;
+			size: 1560px auto;
+			position: 0 0;
+		}
+	}
+	
+	&--spotkania {
+		background: {
+			image: url(../images/bg/spotkania.jpg);
+			size: 1460px auto;
+			position: 0 0;
+		}
+	}
+	
+	&__content {
+		@include hover;
+		width: 780px;
+		line-height: 1.4;
+		
+		&--wide {
+			width: 900px;
+		}
+	}
+}
+/*
+
+.section--nagrody-3 {
+	.section--nagrody-3-bg {
+		
+	}
+}
+*/

@@ -1,0 +1,30 @@
+.c-benefits {	
+	dl {
+		margin-bottom: 10px;
+	}
+	
+	dt, dd {
+		float: left;
+	}
+	
+	dt {
+		width: 100px;
+	}
+	
+	dd {
+		width: 800px;
+		padding-top: 25px;
+	}
+	
+	i {
+		display: inline-block;
+		width: 70px;
+		height: 70px;
+		border-radius: 50%;
+		background-color: $c-blue;
+		text-align: center;
+		line-height: 70px;
+		font-size: 40px;
+		color: white;
+	}
+}

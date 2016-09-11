@@ -1,0 +1,16 @@
+.c-program {
+	margin-bottom: 40px;
+	&__title { 
+		border-bottom: 1px solid $c-diament;
+		margin-bottom: 15px;
+		font-size: em(26);
+	}
+	
+	p {
+		font-size: em(21);
+	}
+	
+	&__slogan {
+		font-size: em(43);
+	}
+}

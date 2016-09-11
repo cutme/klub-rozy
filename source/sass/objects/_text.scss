@@ -1,0 +1,60 @@
+.o-text {
+	line-height: 1.2;
+
+	p {
+		margin-bottom: 1em;
+		font-size: em(40);
+		
+		.section--spotkania & {
+			font-size: em(22);
+		}
+	}
+	
+	h6 {
+		font-size: em(12);
+	}
+	
+	.section--prolog &,
+	.section--nagrody & {
+		//line-height: 1.1;
+	}
+	
+	h2 {
+		font-size: em(80);
+		
+		.section--zasady & {
+			margin-bottom: 20px;
+		}
+	}
+
+	h3 {
+		font-size: em(60);
+		
+		.section--program &,
+		.section--spotkania & {
+			margin-bottom: 30px;
+			line-height: 1;
+		}
+		
+		.section--rozwoj & {
+			margin-bottom: 20px;
+		}
+	}
+	
+	h4 {
+		font-size: em(47);
+	}
+	
+	h5 {
+		font-size: em(28);
+		
+		
+		.section--nagrody & {
+			font-size: em(26);
+		}
+	}
+	
+	h6 {
+		font-size: 16px;
+	}
+}

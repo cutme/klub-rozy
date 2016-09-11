@@ -1,0 +1,96 @@
+.c-prizes {
+	@include clear;
+	margin-bottom: 40px;
+}
+
+.c-prize {
+	//position: absolute;
+	
+	&--big {
+		left: 20px; top: 220px;
+		width: 400px;
+		
+		.section--nagrody-1 & {
+			left: 20px;
+			top: 350px;
+			width: 306px;
+
+			img {
+				display: block;
+				margin: 0 auto;
+			}
+		}
+	}
+	
+	&--small {
+		//bottom: 20px;
+		float: left;
+		width: 320px;
+		
+		&.left {
+			//left: 0;
+		}
+		
+		&.right {
+			//left: 400px;
+		}
+		
+		img {
+			float: left;
+		}
+		
+		.c-prize__text {
+			float: left;
+			width: 170px;
+			padding-top: 60px;
+			line-height: 1;
+			font-size: em(26);
+			
+			&:after {
+				@include icomoon;
+				margin-left: 5px;
+				vertical-align: middle;
+				font-size: 12px;
+				content: "\e90a";
+			}
+		}
+		
+		&.wide {
+			width: 460px;
+
+			.c-prize__text {
+				width: 260px;
+				padding-left: 20px;
+			}
+		}
+	}
+	
+	&__title {
+		margin-bottom: 15px;
+	}
+	
+	&__text {
+		
+		p {
+			font-size: em(26);
+			line-height: 1.2;
+		}
+		
+		.section--nagrody-1 & {
+			p {
+				font-size: em(23);
+			}
+		}
+	}
+	/*
+
+	&--info {
+		left: 0; top: 780px;
+		width: 100%;
+		
+		p {
+			font-size: em(16);
+		}
+	}
+*/
+}

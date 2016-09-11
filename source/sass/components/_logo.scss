@@ -1,0 +1,24 @@
+.c-logo {
+	display: block;
+	width: 170px;
+
+	&--big {
+		width: 430px;
+	}
+
+	&--pin {
+		position: absolute;
+		bottom: 40px;
+	}
+	
+	&--top {
+		margin-bottom: 40px;
+	}
+	
+	&__welcome {
+		display: block;
+		margin-top: -10px;
+		text-align: right;
+		font-size: em(70);
+	}
+}

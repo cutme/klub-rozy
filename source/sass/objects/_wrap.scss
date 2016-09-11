@@ -1,0 +1,10 @@
+.o-wrap {
+	position: relative;
+	z-index: 2;
+	max-width: 900px;
+	height: 100%;
+	
+	.section--home & {
+		padding-left: 430px;
+	}
+}

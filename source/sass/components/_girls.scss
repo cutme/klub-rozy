@@ -1,0 +1,37 @@
+.c-girls {
+	position: absolute;
+	left: 320px;
+	top: 0;
+	
+	img {
+		display: block;
+	}
+	
+	&__item {
+		display: none;
+		
+		&--bursztyn {
+			.bursztyn & {
+				display: block;
+			}
+		}
+		
+		&--rubin {
+			.rubin & {
+				display: block;
+			}
+		}
+		
+		&--szmaragd {
+			.szmaragd & {
+				display: block;
+			}
+		}
+		
+		&--diament {
+			.diament & {
+				display: block;
+			}
+		}
+	}
+}

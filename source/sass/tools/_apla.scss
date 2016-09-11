@@ -1,0 +1,17 @@
+.apla {
+	&:after {
+		opacity: .9;
+		position: absolute;
+		left: 0; top: 0;
+		width: 100%; height: 100%;
+		background-color: white;
+		content: ' ';
+		z-index: 1;			
+	}
+}
+
+.apla--pink {
+	&:after {
+		background-color: $c-pink;	
+	}
+}

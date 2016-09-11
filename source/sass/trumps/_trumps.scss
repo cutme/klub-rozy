@@ -1,0 +1,61 @@
+[class^="icon-"], [class*=" icon-"] {
+	@include icomoon;
+}
+
+.font-avon {
+	font-family: $avon;
+}
+
+.fs-17 {
+	font-size: em(17) !important;
+}
+
+.fs-26 {
+	font-size: em(26) !important;
+}
+
+.height--1024 {
+	height: 1024px;
+}
+
+.hide {
+	@include opacity(0);
+}
+
+.indent {
+	padding-left: 100px;
+}
+
+.no-visible {
+	opacity: 0;
+	//display: none;
+}
+
+.safari {
+	* {
+		-webkit-backface-visibility: hidden;
+		-webkit-transform-style: preserve-3d;
+	}
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-upper {
+	text-transform: uppercase;
+}
+
+/* IE */
+
+@media screen and (max-width:400px) {
+    @-ms-viewport{
+        width:320px;
+    }
+}
+
+@-webkit-viewport{width:device-width}
+@-moz-viewport{width:device-width}
+@-ms-viewport{width:device-width}
+@-o-viewport{width:device-width}
+@viewport{width:device-width}

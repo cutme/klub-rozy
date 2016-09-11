@@ -1,0 +1,41 @@
+body {
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeSpeed;
+	
+	font: {
+		family: $text;
+		size: #{$base-font-size}px;
+		weight: $regular;
+	}
+	color: white;
+}
+
+a {
+	@include hover;
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+	
+	&:hover,
+    &:active,
+    &:focus {
+        color: inherit;
+        outline: none;
+    }
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    @media all and (max-width: $screen-xs-max) {
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+    }
+}
+
+
+strong {
+	font-weight: $bold;
+}

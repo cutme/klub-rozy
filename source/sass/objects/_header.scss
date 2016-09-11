@@ -1,0 +1,24 @@
+.o-header {
+	margin-bottom: 40px;
+	padding-top: 40px;
+	
+	.section--home &,
+	.section--prolog & {
+		padding-top: 0;
+	}
+	
+	.section--spotkania & {
+		line-height: 1;		
+	}
+	
+	h3 {
+		.section--nagrody & {
+			margin-bottom: 30px;
+		}
+	}
+	
+	.font-avon {
+		display: block;
+		line-height: 1;
+	}
+}

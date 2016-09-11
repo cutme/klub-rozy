@@ -1,0 +1,11 @@
+.col {
+	float: left;
+	
+	&--50 {
+		width: 50%;
+		
+		.section--spotkania & {
+			padding:  0 40px;
+		}
+	}
+}
