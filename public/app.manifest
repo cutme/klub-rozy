@@ -34,10 +34,6 @@ images/bg/roses.jpg
 images/bg/roses.png
 images/bg/roses.svg
 images/bg/spotkania.jpg
-images/girl/bursztyn.png
-images/girl/diament.png
-images/girl/rubin.png
-images/girl/szmaragd.png
 images/icons/arrow-left-kopia.svg
 images/icons/arrow-left.svg
 images/icons/arrow-right.svg
@@ -70,6 +66,10 @@ images/nagrody/prize-3.png
 images/nagrody/prize-title-1.png
 images/nagrody/prize-title-2.png
 images/nagrody/prize-title-3.png
+images/girl/bursztyn.png
+images/girl/diament.png
+images/girl/rubin.png
+images/girl/szmaragd.png
 images/social/facebook.png
 images/social/instagram.png
 images/social/makeup.png
@@ -81,4 +81,4 @@ NETWORK:
 SETTINGS:
 prefer-online
 
-# hash: e0c85edd37c1dce89c1830c76a01b2285ab35aa4ecb876aebe0ac2c45c71a733
+# hash: 0874be0766b7277f2feebd1e01921241f6ae6cd6f7f7d0d6ae22e8c4883ff19c
