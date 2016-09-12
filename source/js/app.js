@@ -33,7 +33,7 @@ jQuery(function($) {
 				mouse = $('.c-mouse'),
 				mouse_txt1 = $('.c-mouse').attr('data-index1'),
 				mouse_txt2 = $('.c-mouse').attr('data-index2'),
-				sidebarAddons = $('.c-sidebar__addons');
+				sidebarAddons = $('.c-addons');
 
 			$('#pagepiling').pagepiling({
 				anchors: ['home', 'prolog', 'ambasadorki', 'zasady', 'przywileje-bursztyn', 'przywileje-rubin', 'przywileje-szmaragd', 'przywileje-diament', 'program', 'nagrody', 'nagrody-1', 'nagrody-2', 'nagrody-3', 'spotkania', 'rozwoj'],
@@ -55,25 +55,25 @@ jQuery(function($) {
 
 		            if (index == 5) { // przywileje bursztyn
 		            	pB_content.removeClass('hide');
-						sidebarAddons.attr('class', '').addClass('c-sidebar__addons bursztyn');
+						sidebarAddons.attr('class', '').addClass('c-addons bursztyn');
 		            }
 
 					if (index == 6) {
 						pR_content.removeClass('hide');
 						$('#nav li').eq(2).addClass('active');
-						sidebarAddons.attr('class', '').addClass('c-sidebar__addons rubin');
+						sidebarAddons.attr('class', '').addClass('c-addons rubin');
 		            }
 		            
 		            if (index == 7) {
 						pS_content.removeClass('hide');
 						$('#nav li').eq(2).addClass('active');
-						sidebarAddons.attr('class', '').addClass('c-sidebar__addons szmaragd');
+						sidebarAddons.attr('class', '').addClass('c-addons szmaragd');
 		            }
 		            
 		            if (index == 8) {
 						pD_content.removeClass('hide');
 						$('#nav li').eq(2).addClass('active');
-						sidebarAddons.attr('class', '').addClass('c-sidebar__addons diament');
+						sidebarAddons.attr('class', '').addClass('c-addons diament');
 		            }
 		            
 					if (index == 9) {
@@ -118,7 +118,7 @@ jQuery(function($) {
 		            
 		            if ((index == 5) || (index == 6) || (index == 7) || (index == 8)) {
 		            	
-		            	sidebarAddons.attr('class', '').addClass('c-sidebar__addons no-visible');
+		            	sidebarAddons.attr('class', '').addClass('c-addons no-visible');
 		            }
 
 		        	if (index == 6) {

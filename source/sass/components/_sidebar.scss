@@ -9,16 +9,13 @@
 		height: 1024px;
 		overflow: auto;
 	}
-
-	&__addons {
-		@include hover;
-	}
 	
 	&__content {
 		padding: 40px 0 0 135px;
 	}
 
 	&__bg {
+		overflow: hidden;
 		position: absolute;
 		left: 0; top: 0;
 		z-index: -1;

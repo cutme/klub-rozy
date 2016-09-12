@@ -1,4 +1,9 @@
 .c-buttons {
+	
+	.no-visible & {
+		display: none;
+	}
+
 	li {
 		float: left;
 		margin-bottom: 30px;
@@ -45,10 +50,10 @@
 		font-size: 40px;
 	}
 	
-	.c-sidebar & {
+	.c-addons & {
 		position: absolute;
 		left: 750px;
-		bottom: 0;
+		bottom: 0; z-index: 15;
 		width: 600px;		
 
 		li {
