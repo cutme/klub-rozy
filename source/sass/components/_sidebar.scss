@@ -11,6 +11,8 @@
 	}
 	
 	&__content {
+		height: 100%;
+		transform: skewX(4.5deg);
 		padding: 40px 0 0 135px;
 	}
 
@@ -23,19 +25,19 @@
 		background-color: $c-blue;
 		transform: skewX(-4.5deg);
 		
-		.bursztyn & {
+		.level-bursztyn & {
 			background-color: $c-bursztyn;
 		}
 		
-		.diament & {
+		.level-diament & {
 			background-color: $c-diament;
 		}
 		
-		.rubin & {
+		.level-rubin & {
 			background-color: $c-rubin;
 		}
 		
-		.szmaragd & {
+		.level-szmaragd & {
 			background-color: $c-szmaragd;
 		}
 	}

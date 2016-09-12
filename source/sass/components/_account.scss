@@ -1,0 +1,44 @@
+.c-account {
+	display: none;
+	position: absolute;
+    bottom: 0;
+	width: calc(100% + 110px);
+	margin-left: -110px;
+	padding: 20px 220px 20px 110px;
+	
+	.logged & {
+		display: block;
+	}
+	
+	.level-bursztyn & {
+		background-color: $c-bursztyn--darker;
+	}
+	
+	.level-rubin & {
+		background-color: $c-rubin--darker;
+	}
+	
+	.level-szmaragd & {
+		background-color: $c-szmaragd--darkest;
+	}
+	
+	.level-diament & {
+		background-color: $c-diament--darker;
+	}
+	
+	li {
+		margin-bottom: 10px;
+	}
+	
+	&__label {
+		margin-bottom: 4px;
+		font-size: em(15);
+	}
+	
+	&__details {
+		font: {
+			size: em(20);
+			weight: $bold;
+		}
+	}
+}

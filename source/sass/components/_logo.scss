@@ -9,6 +9,10 @@
 	&--pin {
 		position: absolute;
 		bottom: 40px;
+		
+		.logged & {
+			display: none;
+		}
 	}
 	
 	&--top {

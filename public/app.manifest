@@ -1,6 +1,10 @@
 CACHE MANIFEST
 
 CACHE:
+index-bursztyn.html
+index-diament.html
+index-rubin.html
+index-szmaragd.html
 index.html
 css/jquery.pagepiling.css
 css/style.css
@@ -80,4 +84,4 @@ NETWORK:
 SETTINGS:
 prefer-online
 
-# hash: 2a446cfffa0ea63db3f46c9b4c9e9ce816d3a8824b5794bb53f535eff708411a
+# hash: 26cf97b6a2c036a1e6f8b6cf8e9a5eac00bfb7ef8ec465a575c7df0200d3171d
