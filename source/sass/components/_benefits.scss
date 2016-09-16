@@ -1,4 +1,7 @@
-.c-benefits {	
+.c-benefits {
+	@include clear;	
+	margin-bottom: 100px;
+
 	dl {
 		margin-bottom: 10px;
 	}

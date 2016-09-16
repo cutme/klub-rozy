@@ -1,16 +1,19 @@
 .c-addons {
 	@include hover;
 	position: absolute;
-	z-index: 20;
+	z-index: 5;
 	min-height: 100%;
 	bottom: 0;
+
 	.o-container & {
-		left: -40px;
-		
-		
+		left: -40px;		
 	}
 	
 	.c-sidebar & {
 		transform: skewX(4.5deg);
 	}
+}
+
+.c-addons + .c-addons {
+	z-index: 20 !important;
 }

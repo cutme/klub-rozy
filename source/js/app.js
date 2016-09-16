@@ -39,7 +39,6 @@ jQuery(function($) {
 				anchors: ['home', 'prolog', 'ambasadorki', 'zasady', 'przywileje-bursztyn', 'przywileje-rubin', 'przywileje-szmaragd', 'przywileje-diament', 'program', 'nagrody', 'nagrody-1', 'nagrody-2', 'nagrody-3', 'spotkania', 'rozwoj'],
 			    menu: '#nav',
 			    navigation: false,
-
 			    
 			    afterLoad: function(anchorLink, index) {
 

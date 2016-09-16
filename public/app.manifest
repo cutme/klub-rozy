@@ -12,7 +12,6 @@ fonts/HelveticaNeueLTW1GBdCnO.eot
 fonts/HelveticaNeueLTW1GBdCnO.svg
 fonts/HelveticaNeueLTW1GBdCnO.ttf
 fonts/HelveticaNeueLTW1GBdCnO.woff
-fonts/HelveticaNeueLTW1GBdCnO.woff2
 fonts/HelveticaNeueLTW1GCn.eot
 fonts/HelveticaNeueLTW1GCn.svg
 fonts/HelveticaNeueLTW1GCn.ttf
@@ -84,4 +83,4 @@ NETWORK:
 SETTINGS:
 prefer-online
 
-# hash: f398a894cb6a16ca4d58ea890675a28527b6f794ba92a1fa9b633cdeff1a290d
+# hash: 6644d33fdaccc013527a3c3a05911e9fc831cdfb08582b370fdcdbd21b3e780a

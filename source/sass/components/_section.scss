@@ -5,6 +5,11 @@
 	//background-size: cover;
 	background-position: 60px 0;
 	padding-left: 430px;
+	padding-bottom: 150px;
+	
+	&--nagrody {
+		padding-bottom: 200px;
+	}
 	
 	&.medium {
 		width: 900px;
@@ -58,6 +63,10 @@
 		&--wide {
 			width: 900px;
 		}
+	}
+	
+	&__image {
+		margin-bottom: 50px;
 	}
 }
 /*
